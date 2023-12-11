@@ -6,6 +6,8 @@ import { Rubik } from 'next/font/google'
 // Components
 import Navbar from './components/Navbar'
 import BootstrapClient from './components/BootstrapClient'
+import Script from 'next/script'
+import ManiJs from './components/main'
 
 const rubik = Rubik({ subsets: ['latin'] })
 
@@ -21,6 +23,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <BootstrapClient />
+        <ManiJs />
+        {/* <Script src="../scripts/main.js"></Script> */}
       </body>
     </html>
   )

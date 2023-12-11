@@ -1,0 +1,8 @@
+@import './_var.scss';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.user {
+    display: inline-flex;
+    flex-direction: column;
+}
