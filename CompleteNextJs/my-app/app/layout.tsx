@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import './css/style.scss'
 
 import BootstrapClient from './components/BootstrapClient'
+import Footer from './components/Footer'
+import Header from './components/Header'
 import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}
+        <Header />
+          {children}
+        <Footer />
         <BootstrapClient />
         <Script src="/js/jquery.js"></Script> 
         <Script src="/js/main.js"></Script> 

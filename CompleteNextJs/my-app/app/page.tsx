@@ -1,10 +1,11 @@
-import Image from "next/image"
+import Link from "next/link";
+
 
 export default function Home() {
   return (
     <div>
-      <div className="px-3">
-        <Image className="img-fluid" src="/vercel.svg" alt="image" width={200} height={100} />
+      <div className="container py-5">
+        <Link href="/users" className="btn btn-outline-dark">Go to Users</Link>
       </div>
     </div>
   )
