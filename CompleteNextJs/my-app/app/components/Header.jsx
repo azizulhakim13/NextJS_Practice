@@ -15,8 +15,8 @@ export default function Header() {
 
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><Link href="/" className="nav-link px-2 text-white">Home</Link></li>
-          <li><Link href="/fetchData" className="nav-link px-2 text-white">Fetch Data</Link></li>
-          <li><Link href="/Photos" className="nav-link px-2 text-white">Photos</Link></li>
+          <li><Link href="/push_data" className="nav-link px-2 text-white">Push Data</Link></li>
+          <li><Link href="/fetch_data" className="nav-link px-2 text-white">Fetch Data</Link></li>
           <li><Link href="/form" className="nav-link px-2 text-white">Form</Link></li>
           <li><Link href="#" className="nav-link px-2 text-white">About</Link></li>
         </ul>
