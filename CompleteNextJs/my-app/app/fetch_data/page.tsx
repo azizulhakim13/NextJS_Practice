@@ -1,16 +1,3 @@
-// import Link from "next/link";
-
-
-// export default function Home() {
-//   return (
-//     <div>
-//       <div className="container py-5">
-//         <Link href="/users" className="btn btn-outline-dark">Go to Users</Link>
-//       </div>
-//     </div>
-//   )
-// }
-
 import { revalidateTag } from 'next/cache';
 import Link from 'next/link'
 import React from 'react'
@@ -65,7 +52,7 @@ export default async function Home() {
                     <input name='price' type="text" className="form-control py-2 ps-3" placeholder='Enter Price..' />
                 </div>
                 <div>
-                    <button type="submit" className="btn btn-primary d-block">Add Product</button>
+                    <button className="btn btn-primary d-block">Add Product</button>
                 </div>
             </form>
         </div>
