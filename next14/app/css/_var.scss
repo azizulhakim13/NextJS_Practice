@@ -1,0 +1,27 @@
+
+// Links
+$primary: #D79851;
+$secondary: #3D3D3E;
+$headings-color: #3D3D3E;
+$link-decoration: none;
+$prefix: bs-;
+$transition-base-lg: all .2s ease-in-out;
+$offcanvas-horizontal-width: 350px;
+$btn-font-family: 'Poppins', sans-serif;
+$input-btn-font-family: 'Poppins', sans-serif;
+$btn-padding-y: 10px;
+$btn-padding-x: 20px;
+$btn-border-radius: 10px;
+$btn-font-weight: 400;
+$spacer: 1rem;
+$spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3,12: $spacer * 0.75,20: $spacer * 1.25, 24: $spacer * 1.5, 40: $spacer * 2.5,60: $spacer * 3.75, 70: $spacer * 4.375, 80: $spacer * 5,100: $spacer * 6.25,120: $spacer * 7.5, 150: $spacer * 9.375, 180: $spacer * 11.25, 144: $spacer * 9, 250: $spacer * 15.625);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1600px
+);

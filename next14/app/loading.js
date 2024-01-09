@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Loading() {
   return (
-    <div>loading</div>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
   )
 }
