@@ -7,7 +7,7 @@ export default function AboutLayout({children}) {
         <nav className='nav-1'>
           <ul>
             <li><Link href="/about/nested">Nested 1</Link></li>
-            <li><Link href="/about">Nested 2</Link></li>
+            <li><Link href="/nai">Nested 2</Link></li>
           </ul>
         </nav>
         <hr />
